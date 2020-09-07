@@ -1,0 +1,45 @@
+*{
+
+}
+h1{
+	font-size: 18px !important;
+	margin-bottom: 30px !important;
+}
+h2{
+	font-size: 16px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.tarjetasgrid{
+
+}
+.tarjeta{
+	
+	margin-bottom: 30px;
+}
+.tarjeta div{
+	background-color: #c2c2c2;
+	padding: 10px;
+}
+a p{
+	text-decoration: none !important;
+	color: #000000;
+}
+a p:hover{
+	text-decoration: none !important;
+	color: #000000 !important;
+}
+a:hover{
+	text-decoration: none !important;
+}
+.tarjeta a p{
+	background-color: #eaeaea;
+	padding: 0px;
+    margin: 0px;
+
+}
+.tarjetafase div{
+	background-color: #c2c2c2;
+	height: 100px;
+	margin-bottom: 20px;
+}

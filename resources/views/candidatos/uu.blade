@@ -1,0 +1,22 @@
+
+
+        {{--  1) Perfil de Candidato   --}}
+        @include('candidatos.edicion.perfil_candidato') 
+
+        {{--  2) primer Contacto   --}}
+        @include('candidatos.edicion.primer_contacto') 
+
+        {{--  3) Entrevistas y evaluaciones   --}}
+        @include('candidatos.edicion.entrevistas')
+
+        {{--  4) Análisis de Resultados   --}}
+         @include('candidatos.edicion.analisis_resultado') 
+         
+        {{--  5) Referencias personales   --}}
+         @include('candidatos.edicion.referencias.referencia_personal') 
+
+        {{--  6) Documentos ***depende del 1)  --}}
+        @include('candidatos.edicion.documentos')
+
+        {{--  7) Estatus Final   --}}
+         @include('candidatos.edicion.estatus_final') 
